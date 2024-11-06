@@ -1,0 +1,8 @@
+body{
+    margin: auto;
+    align-items: center;
+}
+
+label,input{
+    margin: 1em;
+}
