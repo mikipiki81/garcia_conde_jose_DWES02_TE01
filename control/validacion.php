@@ -53,10 +53,10 @@ comprobar_coche_disp($coche);
 
 // Comprobar validacion y abrir la página correspondiente //
 if(!$campos_vacios && $usu_ok && $valida_dni && $valida_fecha && $valida_dias && $coche_disp){
-    echo "Abrir pagina de reserva_ok.php";
+    //echo "Abrir pagina de reserva_ok.php";
     header("location: ../view/reserva_ok.php");
 } else {
-    echo "Abrir pagina de reserva_no_ok.php";
+    //echo "Abrir pagina de reserva_no_ok.php";
     header("location: ../view/reserva_no_ok.php");
 
 }
